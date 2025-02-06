@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier New;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input, select, button{
+    border-radius: 4px;
+    text-align: left;
+    font-size: 10px;
+    height: 35px;
+    width: 110%;
+    padding: 0.2px 2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container{
+    background-color: rgb(141, 211, 255);
+    height: 500px;
+    width: 800px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+fieldset{
+    background-color: #fff;
+    width: 600px;
+    height: 350px;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    flex-wrap:wrap;
+    justify-content: center;
+} 
+
+form h1{
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0;
+    padding: 0.3rem 5rem;
+}
+
+.input{
+    font-size: 16px;
+    display: grid;
+
+} 
+
+fieldset.grupo .input-single{
+    float: left;
+    text-transform: capitalize;
+    display: flex;
+    font-size: 0px;
+    left: 0;
+    bottom: 5px;
+    margin: 8px 32;
+    padding: 0px 1rem;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 190px;
+}
+
+.input-single input{
+    margin: 0.6rem 0;
+    border-radius: 10;
+}
+    
+.input-single textarea{
+    display: grid;
+    width: 260%;
+    height: 90px;
+    margin-bottom: 0rem 0px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+form. input{   
+    text-align: center;
+}
+
+.input-single select option{
+    margin: 0.4rem 0;
+    border-radius: 10px;
+    text-align: left;
+    padding: 2rem 15rem;
+    height: 30px;
+}
+
+
+
+fieldset .input-single .input:focus ~ label,
+fieldset .input-single .input:valid ~ label{
+    transform: translateY(-40px);
+    font-size: 7px;
+    padding: 0.1px 4;
+}
+
+.btn {
+    margin: 15.5rem 9;
+    text-align: end;
+    display: block;
+}
+
+form input[type=submit]{
+    padding: 10px 40px;
+    border: 0px;
+    border-radius: 9px;
+    width: 21%;
+    background-color: #0245b0;
+    color: #fff; 
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+ }
+ input:focus:-moz-placeholder {
+    color: transparent;  
+ }
+ input:focus::-moz-placeholder { 
+    color: transparent;  
+ }
+ input:focus:-ms-input-placeholder {  
+    color: transparent;  
+ }
+
